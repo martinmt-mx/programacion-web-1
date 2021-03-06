@@ -28,9 +28,7 @@ let refGreet = () => {
 }
 refGreet()
 
-let refLogGreeting = (fn) =>{
-    fn()
-}
+let refLogGreeting = (fn) => fn()
 refLogGreeting(refGreet)
 
 let refGreetMe = () => {
